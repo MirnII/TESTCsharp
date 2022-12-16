@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Хранилище ModelContainer" CdmEntityContainer="Entities">
+    <EntitySetMapping Name="SP">
+      <EntityTypeMapping TypeName="Model.SP">
+        <MappingFragment StoreEntitySet="SP">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Art_SP" ColumnName="Art.SP" />
+          <ScalarProperty Name="Cam" ColumnName="Cam" />
+          <ScalarProperty Name="Thick_SP" ColumnName="Thick.SP" />
+          <ScalarProperty Name="Thick_Glass" ColumnName="Thick.Glass" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
